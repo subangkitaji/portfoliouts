@@ -172,3 +172,56 @@ input.btn.btn-danger {
     width: 30%;
     padding: 2% 5%;
 }
+
+/* section another */
+section.another {
+    margin-top: 6%;
+}
+
+section.another p {
+    color: rgba(0, 0, 0, 0.59);
+}
+
+section.portfolio {
+    margin-top: 200px;
+    background-color: #eaeaea;
+}
+
+section.portfolio h2 {
+    padding-top: 50px;
+}
+
+
+.product-description {
+    background-color: #F6F7Fb;
+    height: 350px;
+}
+
+.product-description .tab-content {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-top: 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06)
+}
+
+.product-description .tab-content p {
+    font-size: 14px;
+    font-weight: 200;
+    color: #868686;
+    line-height: 28px;
+}
+
+.product-review {
+    height: 330px;
+
+}
+
+.product-review h5 {
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.product-review p {
+    font-size: 14px !important;
+}
