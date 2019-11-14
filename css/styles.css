@@ -1,8 +1,36 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto|Roboto+Condensed|Ubuntu&display=swap');
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Righteous';
+    src: url(../fonts/Righteous/Righteous-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url(../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
 
 body {
     padding: 0;
     margin: 0;
+}
+
+.navbar {
+    box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-brand {
@@ -46,7 +74,7 @@ body {
 }
 
 .site-content {
-    background-image: url('../img/section/team.jpg');
+    background-image: url('../img/section/bg.png');
     background-attachment: fixed;
     background-size: cover;
 }
@@ -55,7 +83,7 @@ body {
 .site-desc {
     color: white;
     font-family: 'Righteous';
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
 .site-title {
@@ -68,7 +96,7 @@ body {
 .site-desc {
     font-size: 18px;
     padding-left: 28%;
-    padding-right: 28%;
+    padding-right: 15%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -85,5 +113,62 @@ body {
 .site-btn1,
 .site-btn2 {
     margin-top: 1%;
-    margin-bottom: 17%;
+    margin-bottom: 20%;
+}
+
+/* section 1 */
+section.about .heading-1 {
+    margin-top: 8%;
+}
+
+section.about .heading-2 {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+section.about .para-1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+section.about .card-text,
+.para-1 {
+    color: rgba(0, 0, 0, 0.59);
+}
+
+section.about {
+    margin-bottom: 8%;
+}
+
+section.work .container-fluid {
+    background-image: url('../img/section/team.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.work .heading-1 {
+    margin-top: 20%;
+    margin-bottom: 4%;
+    font-family: 'Righteous';
+    width: 80%;
+    color: whitesmoke;
+    margin-left: 5%;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+section.work .para-1 {
+    margin-left: 5%;
+    width: 80%;
+    font-family: 'Ubuntu';
+    color: whitesmoke;
+    margin-bottom: 7%;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+input.btn.btn-danger {
+    margin-left: 5%;
+    margin-bottom: 15%;
+    width: 30%;
+    padding: 2% 5%;
 }
