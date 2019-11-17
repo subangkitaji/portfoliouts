@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>aji subangkit corp</title>
+    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+    <title>aji subangkit media</title>
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -19,7 +20,8 @@
 
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
 
-            <a href="#" class="navbar-brand">KiT<span><i class="fa fa-smile-o" aria-hidden="true"></i>Media</span></a>
+            <a href="#home" class="navbar-brand">KiT<span><i class="fa fa-smile-o" aria-hidden="true"></i>Media</span>
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,16 +30,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="#home" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
+                        <a href="#about" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Work</a>
+                        <a href="#work" class="nav-link">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
+                        <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
 
@@ -56,7 +58,7 @@
     <!-- main -->
     <main>
         <div class="container-fluid p-0">
-            <div class="site-content">
+            <div class="site-content" id="home">
                 <div class="d-flex justify-content-center">
                     <div class="d-flex flex-column">
                         <h1 class="site-title">KitMedia Web Solution</h1>
@@ -71,8 +73,8 @@
                 </div>
             </div>
         </div>
-        <section class="about">
-            <div class="container text-center">
+        <section class="about" id="about">
+            <div class="container text-center about">
                 <h1 class="heading-1">About us</h1>
                 <hr>
                 <h2 class="heading-2">Solusi Lengkap Website & Digital Marketing</h2>
@@ -85,7 +87,7 @@
 
                 <div class="row justify-content-center text-center">
                     <div class="col-md-4">
-                        <div class="card" style="width: 20rem;">
+                        <div class="card">
                             <img src="img/section/wp.jpg" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h4 class="card-title">Wordpress Custom Theme</h4>
@@ -97,7 +99,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="card" style="width: 20rem;">
+                        <div class="card">
                             <img src="img/section/seo.png" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h4 class="card-title">Seo Optimize</h4>
@@ -108,8 +110,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card" style="width: 20rem;">
+                    <div class="col-md-4 sm-12">
+                        <div class="card">
                             <img src="img/section/camera.jpg" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h4 class="card-title">Video Profile</h4>
@@ -127,7 +129,7 @@
             </div>
         </section>
         <section class="work">
-            <div class="container-fluid">
+            <div class="container-fluid work">
                 <div class="d-flex justify-content-end">
                     <div class="d-flex flex-column m-4">
                         <h1 class="heading-1">Tim Kami</h1>
@@ -139,7 +141,7 @@
         </section>
 
         <section class="another">
-            <div class="container">
+            <div class="container another">
                 <div class="row mt-5">
                     <div class="col-md-4">
                         <div class="d-flex flex-row">
@@ -179,7 +181,7 @@
                                 <h3 class="m-2">Back End Developer</h3>
                                 <p class="m-2">
                                     Tim Back End kami bertugas membuat fungsi fungsi dari website anda dengan bahasa
-                                    pemrograman dan database. Tanpa mereka
+                                    pemrograman dan database. Tanpa mereka web anda tidak berfungsi dengan semestinya
                                 </p>
                             </div>
                         </div>
@@ -223,7 +225,8 @@
                             <div class="d-flex flex-column">
                                 <h3 class="m-2">Digital Marketing</h3>
                                 <p class="m-2">
-                                    Tim Digital Marketing menangani pembuatan video profile, intagram ads, facebook ads,
+                                    Tim Digital Marketing menangani pembuatan video profile, instagram ads, facebook
+                                    ads,
                                     pembuatan design banner dll.
                                 </p>
                             </div>
@@ -234,7 +237,7 @@
             </div>
         </section>
 
-        <section class="portfolio">
+        <section class="portfolio" id="work">
             <div class="container">
                 <div class="row mt-5 mb-5 justify-content-center">
                     <div class="col-md">
@@ -286,39 +289,15 @@
                     <div class="col-md-8">
                         <nav>
                             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                <a class="nav-item nav-link active" id="nav-description-tab" data-toggle="tab"
-                                    href="#nav-description" role="tab" aria-controls="nav-description"
-                                    aria-selected="true">Product Description</a>
-                                <a class="nav-item nav-link" id="nav-reviews-tab" data-toggle="tab" href="#nav-reviews"
-                                    role="tab" aria-controls="nav-reviews" aria-selected="false">Reviews(20)</a>
+
+                                <a class="nav-item nav-link active" id="nav-reviews-tab" data-toggle="tab"
+                                    href="#nav-reviews" role="tab" aria-controls="nav-reviews"
+                                    aria-selected="false">Reviews(20)</a>
                             </div>
                         </nav>
                         <div class="tab-content p-3" id="nav-tabContent">
-                            <div class="tab-pane fade product-review show active" id="nav-description" role="tabpanel"
-                                aria-labelledby="nav-description-tab">
-                                <p>Payday is finally here and you’ve got some extra cash to help you stock up your
-                                    summer
-                                    wardrobe. Not sure where to start? ASOS Stylist Beccy Goldsworthy is here with the
-                                    best
-                                    of what’s
-                                    new, from 80s-inspired tracksuits to some seriously fresh trainers. Check out her
-                                    picks
-                                    below
-                                    and watch the video for more.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec felis metus. Vivamus
-                                    eu
-                                    urna
-                                    tempor, pretium erat quis, volutpat eros. Cras consectetur dolor at venenatis
-                                    feugiat.
-                                    Fusce
-                                    nunc risus, finibus eget augue ac, ornare gravida turpis. Morbi consequat, nisi sit
-                                    amet
-                                    viverra
-                                    feugiat, lacus mauris ornare erat, at pharetra odio dolor id elit. Pellentesque eu
-                                    aliquet ex.
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="tab-pane fade product-review" id="nav-reviews" role="tabpanel"
+
+                            <div class="tab-pane fade product-review show active" id="nav-reviews" role="tabpanel"
                                 aria-labelledby="nav-reviews-tab">
                                 <div class="row">
                                     <div class="col-1 mr-4 d-none d-sm-block">
@@ -377,19 +356,179 @@
             </div>
         </section>
 
-        <section class="contact">
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="row mt-5 mb-5 justify-content-center">
+                    <div class="col-md">
+                        <h2 class="text-center">Contact US</h2>
+                        <hr style="width: 250px;">
+                    </div>
+                </div>
 
+                <div class="row mt-5 mb-5 justify-content-center">
+                    <div class="col-md-3">
+                        <form>
+                            <div class="form-group">
+                                <label for="Nama">Nama</label>
+                                <input type="text" class="form-control" id="Nama" placeholder="Nama lengkap">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="Email">Email</label>
+                                <input type="text" class="form-control" id="Email_Aktif" placeholder="Email Aktif">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="city">Kota</label>
+                                <select class="custom-select">
+                                    <option selected>Select City</option>
+                                    <option value="1">Tegal</option>
+                                    <option value="2">Jakarta</option>
+                                    <option value="3">Surabaya</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control mb-2" aria-label="Masukan Pesan"></textarea>
+                                <a href="#" class="btn btn-primary">Kirim Pesan</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-4 mt-4 ml-4">
+                        <h4 style="font-size: 18px;">Alamat Lengkap Kami</h4>
+                        <p style="color: rgb(77, 73, 73);">Datang berkunjung dan dapatkan penawaran menarik</p>
+                        <img src="img/map.png" class="card-img-top mb-2" style="width: 15rem;" alt=""><br>
+                        <i class="fa fa-map-marker fa-3x" style="color: red;" aria-hidden="true"></i>
+                        <p style="font-size: 16px; color: rgb(77, 73, 73);">Jl. Mbah Wakil No.38 Rt. 06/02, Harjosari
+                            Kidul, Adiwerna, Kab.
+                            Tegal, Jawa Tengah</p>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                        <h4 style="font-size: 18px;">Media Sosial</h4>
+                        <p style="color: rgb(77, 73, 73);">Kepoin dan follow medsos kita, untuk dapatkan berita terbaru
+                            kami beserta promo menarik dan giveaway <i class="fa fa-smile-o" aria-hidden="true"></i></p>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Apps</th>
+                                    <th scope="col">Username</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Facebook</td>
+                                    <td>Bangkit</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Instagram</td>
+                                    <td>subangkitaji</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Twitter</td>
+                                    <td>@bangkit_san</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+
+            </div>
+            </div>
         </section>
 
-
-
-
     </main>
+
+    <!-- Footer -->
+    <footer style="background-color:rgba(0, 0, 0, 0.5)">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 py-5">
+                    <div class="text-center" style="background-color: rgba(0, 0, 0, 0.4);">
+
+                        <!-- Facebook -->
+                        <a href="https://facebook.com/bangkit.oliviera">
+                            <i class="fa fa-facebook fa-3x mr-3 p-2" style="color: white;" aria-hidden="true"
+                                id="icon"></i>
+                        </a>
+                        <!-- Twitter -->
+                        <a>
+                            <i class="fa fa-twitter fa-3x mr-3 p-2" style="color: white;" aria-hidden="true"
+                                id="icon"></i>
+                        </a>
+                        <!-- Google +-->
+                        <a>
+                            <i class="fa fa-google-plus fa-3x mr-3 p-2" style="color: white;" aria-hidden="true"
+                                id="icon"></i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="iconfooter" href="https://github.com/subangkitaji">
+                            <i class="fa fa-github fa-3x mr-3" style="color: white;" aria-hidden="true" id="icon"></i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="iconfooter" href="https://instagram.com/subangkitaji">
+                            <i class="fa fa-instagram fa-3x mr-3 p-2" style="color: white;" aria-hidden="true"
+                                id="icon"></i>
+                        </a>
+
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3" style="color: white">© 2019 Copyright:
+            <a href="https://github.com/subangkitaji" style="color: #00E8E8;"> Subangkitaji</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
 
     <!-- end of main -->
     <script src="js/popper.min.js"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/scrollreveal.js"></script>
+    <script>
+        ScrollReveal().reveal('.site-content .d-flex', {
+            delay: 500
+        });
+
+        ScrollReveal().reveal('.about', {
+            delay: 1000
+        });
+        ScrollReveal().reveal('.work ', {
+            delay: 1000
+        });
+
+        ScrollReveal().reveal('.another .col-md-4', {
+            delay: 1000
+        });
+        ScrollReveal().reveal('.portofolio .card', {
+            delay: 1000
+        });
+    </script>
+
 </body>
 
 </html>
